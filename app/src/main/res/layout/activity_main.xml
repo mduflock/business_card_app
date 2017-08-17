@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/background_dark"
+android:paddingLeft="20dp"
+android:paddingTop="20dp"
+android:paddingBottom="0dp"
+tools:context="com.udacity.myapplication.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="55dp"
+
+        android:maxWidth="210dp"
+        android:maxHeight="210dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/headshot"
+        android:src="@drawable/headshot"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:text="Meredith Duflock"
+        android:id="@+id/title"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+
+        android:textColor="#FE6019"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/contact_title"
+        android:text="Contact:"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingTop="0dp"
+        android:paddingLeft="0dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/headshot" />
+
+    <TextView
+        android:id="@+id/contact_info_1"
+        android:text="@string/phone_string"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/headshot"
+        android:layout_below="@id/contact_title" />
+
+    <TextView
+        android:id="@+id/contact_info_2"
+        android:text="@string/email_string"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/headshot"
+        android:layout_below="@id/contact_info_1" />
+
+    <TextView
+        android:id="@+id/contact_info_3"
+        android:text="@string/gu_email_string"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/headshot"
+        android:layout_below="@id/contact_info_2" />
+
+    <TextView
+        android:id="@+id/resource_title"
+        android:text="Resources:"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingLeft="0dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_info_3"
+        android:layout_toRightOf="@id/headshot" />
+
+    <TextView
+        android:id="@+id/resource_info_1"
+        android:text="@string/personal_website_string"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/headshot"
+        android:layout_below="@id/resource_title" />
+
+    <TextView
+        android:id="@+id/resource_info_2"
+        android:text="@string/github_string"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/headshot"
+        android:layout_below="@id/resource_info_1" />
+
+    <TextView
+        android:id="@+id/resource_info_3"
+        android:text="@string/linkedin_string"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/headshot"
+        android:layout_below="@id/resource_info_2" />
+
+    <TextView
+        android:id="@+id/quals_title"
+        android:text="Expertise"
+        android:textSize="28sp"
+        android:textColor="#FE6019"
+        android:textStyle="bold"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/headshot"/>
+
+    <TextView
+        android:id="@+id/quals_1"
+        android:text="@string/quals_paragraph"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quals_title"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>
+
+
+

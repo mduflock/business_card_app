@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UI Final Project</string>
+    <string name="phone_string">+1 (408) 348-7443</string>
+    <string name="email_string">meredith.duflock@gmail.com</string>
+    <string name="gu_email_string">md1341@georgetown.edu</string>
+    <string name="github_string">https://github.com/mduflock/</string>
+    <string name="linkedin_string">https://www.linkedin.com/in/meredith-duflock-00586b13b/</string>
+    <string name="personal_website_string">https://meredithduflock.me</string>
+    <string name="quals_paragraph">I\'m a rising junior at Georgetown University majoring in
+        computer science and history with a minor in psychology. I spent my last summer balancing
+        a customer service job with five computer science courses, building Android applications, and
+        designing my own website. I\'ve tested multiple apps for Google and have extensive experience
+        with public speaking, research, and teamwork as a member of the debate team. I\'m looking
+        for software engineering internships, particularly at start-ups and non-profits.</string>
+</resources>
+
